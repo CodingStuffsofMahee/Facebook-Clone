@@ -1,11 +1,28 @@
 {
-  "name": "facebook",
+  "name": "facebook-clone",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is the clone of Facebook , made by me, and this will keep updating with time.",
+  "main": "postcss.config.js",
+
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingStuffsofMahee/Facebook-Clone.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingStuffsofMahee/Facebook-Clone/issues"
+  },
+  "homepage": "https://github.com/CodingStuffsofMahee/Facebook-Clone#readme",
+  "keywords": []
 }
